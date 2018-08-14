@@ -5,10 +5,22 @@
   "description": "a Sails application",
   "keywords": [],
   "dependencies": {
-    "include-all": "^1.0.0",
-    "rc": "1.0.1",
-    "sails": "^0.12.13",
-    "sails-disk": "~0.10.9"
+    "browser-sync": "^2.24.6",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-eslint": "^5.0.0",
+    "gulp-jasmine-phantom": "^3.0.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-uglify": "^3.0.1",
+    "gulp-uglifycss": "^1.1.0",
+    "idb": "^2.1.3",
+    "include-all": "^4.0.3",
+    "node": "^10.8.0",
+    "rc": "^1.2.8",
+    "sails": "^1.0.2",
+    "sails-disk": "^1.0.1",
+    "uglify-es": "^3.3.9"
   },
   "scripts": {
     "debug": "node debug app.js",
@@ -21,5 +33,8 @@
   },
   "author": "Brandy Lee Camacho",
   "linkedIn": "https://www.linkedin.com/in/brandycamacho/",
-  "email": "brandy@udacity.com"
+  "email": "brandy@udacity.com",
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0"
+  }
 }
